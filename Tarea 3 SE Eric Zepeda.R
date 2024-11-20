@@ -1,6 +1,6 @@
 
 
-f = function(x){ #the pdf of f - the target distribution
+f = function(x){ #pdf de la densidad objetivo de juguete
   dnorm(x, mean=0, sd = 1)
 }
 
@@ -18,7 +18,7 @@ x[1]<- rnorm(1)
 for(i in 2:Nsim - 1){
   z<- rnorm(2, mean=0, sd = 1)
   y<-rnorm(1,mean = x[i]+2*z, 0.5)
-  if(runif(1) < min(1, f(y) / f(x[i]))) #same as above if q(x,y) == q(y,x), i.e. q is symmetric
+  if(runif(1) < min(1, f(y) / f(x[i]))) #Asumiendo simetría
   {
     x[i+1] <- y
   } else x[i+1] <- x[i]
@@ -27,9 +27,7 @@ for(i in 2:Nsim - 1){
 muestra<- tail(x,n=5000) 
 x_axis <- as.list(seq(1, 5000))
 
-#plot(muestra, type = "l")
 
-#print(sum(muestra)/5000)
 
 ### Metropolis Hasting TAREA  #########
 
