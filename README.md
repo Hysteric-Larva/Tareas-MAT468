@@ -6,4 +6,6 @@ El propósito de este curso es proveer de una descripción detallada de las prin
 
 ## Links de los informes realizados (Solo disponibles si fueron parte de mi entrega):
 * [Tarea 1](https://www.overleaf.com/read/ffxqtbmyvgrw#bf998c)
-* Proximamente, tarea 2.
+* [Tarea 2](https://www.overleaf.com/read/dmsmqkxhpcvr#325830)
+* [Tarea 3](https://www.overleaf.com/read/vpchvbvnhjcc#92f221)
+* [Tarea 4](https://www.overleaf.com/read/rvxjrgnrjfhv#b54070)
